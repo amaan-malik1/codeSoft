@@ -1,0 +1,111 @@
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.m-10 {
+    margin: 10px 0px;
+}
+
+.m-20 {
+    margin: 20px 0px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.invert {
+    filter: invert(0);
+}
+
+.border-card {
+    border: 2px solid black;
+}
+
+.width {
+    width: 50px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px #26c0a5;
+    background:  red;
+    color: white;
+    animation: list-rolling 2s ease-in-out 1;
+}
+
+.listItem>ul>li:hover {
+    cursor: pointer;
+    border: 2px solid rgb(189, 189, 210);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.card:hover {
+    background-color: #fcf2e5;
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+    color: brown;
+}
+
+.Projects-card:hover {
+    cursor: pointer;
+}
+
+
+.proficient:hover {
+    box-shadow: 0px 0px 7px rgb(121, 102, 102);
+    cursor: pointer;
+}
+
+/* .content:hover {
+    text-shadow: 2px 3px 10px rgb(152, 99, 99);
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+@keyframes list-rolling {
+
+    /* from {
+        rotate: 0deg;
+        scale: 0px;
+    }
+
+    to {
+        rotate: 360deg;
+        scale: 30px;
+    } */
+    from {
+        transform: scale(30%);
+    }
+
+    to {
+        transform: scale(100%);
+    }
+}

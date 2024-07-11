@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 5px #4a4848;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    border-radius: 40px;
+}
+
+.listItem>ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.listItem>ul>li {
+    list-style: none;
+    font-family: system-ui;
+    padding: 10px;
+}
+
+.btn {
+    background: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 18px;
+    background: aliceblue;
+}
+
+.button-about {
+    margin: 20px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 40px 0px;
+    height: 400px;
+}
+
+.h2 {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+
+.content>:nth-child(2) {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.content>:nth-child(3) {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.content>:nth-child(2)>span {
+    color: orange;
+}
+
+.container img {
+    width: 20vw;
+    border-radius: 100%;
+
+}
+
+.ProfileImg>img {
+    box-shadow: 0 0 15px rgb(121, 102, 102);
+}
+
+.social-link img {
+    width: 40px;
+    box-shadow: 0 0 8px black;
+}
+
+.skills {
+    padding: 25px;
+    background-color: #E0F7FA;
+    color: black;
+    box-shadow: 0 0 1px;
+}
+
+.skills img {
+    width: 30px;
+}
+
+.skills-set {
+    display: flex;
+    gap: 15px;
+}
+
+.card-container {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 70vw;
+    background-color: rgb(216 239 241);
+    box-shadow: 0 0 5px;
+    margin: 20px 0px;
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.Proects-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    gap: 10px;
+
+}
+
+.Proects-heading img {
+    width: 30px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.Projects-card {
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(121, 102, 102);
+    margin: 3px 10px;
+}
+
+.Projects-card iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.Projects-card h3 {
+    margin-top: 15px;
+    /* Add space between iframe and heading */
+    font-size: 18px;
+    /* Adjust the font size of the heading */
+}
+
+.Projects-card p {
+    font-size: 14px;
+    /* Adjust the font size of the paragraph */
+    color: #4a4848;
+    /* Set a color for the paragraph text */
+}
+
+
+/* prociciency alert */
+
+#Skills-Prodficiency-h1 {
+    font-size: 32px;
+    text-align: center;
+    /* text-shadow: 0px 0px 3px; */
+}
+
+.proficiency-container {
+    background-color: #edf6fd;
+    padding: 15px;
+    margin: 30px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+}
+
+.proficient {
+    background-color: pink;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: right;
+    border: 2px solid black;
+}
+
+
+.html {
+    width: 90%;
+    background-color: green;
+    padding: 6px;
+}
+
+.css {
+    width: 80%;
+    background-color: red;
+    padding: 6px;
+}
+
+.js {
+    width: 70%;
+    background-color: blue;
+    padding: 6px;
+}
+
+.python {
+    width: 60%;
+    background-color: yellow;
+    padding: 6px;
+}
+
+.php {
+    width: 50%;
+    background-color: black;
+    padding: 6px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: aliceblue;
+    margin: 20px 0px;
+}
+
+.edu-img>img {
+    width: 20vw;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(121, 102, 102);
+    animation: scaleImg 3s forwards;
+}
+
+@keyframes scaleImg {
+    /* from{
+        transform: scale(30%);
+    }
+    to{
+        transform: scale(100%);
+    } */
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+    
+}
+
+.education .text h2 {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text {
+    width: 400px; /* Adjust width as needed */
+    padding: 20px;
+    animation: slideInFromLeft 5s forwards;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Enjoy footer section*/
+footer {
+    background-color: rgb(33 30 30);
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background: #2e2a2a;
+    border-radius: 10px;
+}
+
+.footer-container a {
+    color: white;
+    font-weight: 400;
+}
+
+
+.footer-container li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.footer-container a:hover {
+    border-bottom: 1px solid white;
+    color: rgb(214, 25, 22);
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+}
